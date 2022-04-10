@@ -1,0 +1,6 @@
+gosvelte:
+  internpublicpath: "www/public"
+  forwardpublicpath: "/www/public"
+  svelteworkspacepath: "resources/views"
+  svelteoutputpath: "/gosvelte"
+  svelteextension: ".svelte"

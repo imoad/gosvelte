@@ -1,0 +1,4 @@
+application:
+  name: gosvelte starter kit
+  host: localhost
+  port: :3000

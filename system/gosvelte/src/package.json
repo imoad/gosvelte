@@ -1,0 +1,5 @@
+{
+    "name": "gosvelte",
+    "private": true,
+    "type": "module"
+}
