@@ -12,14 +12,24 @@ Learn more at the [Golang website](https://go.dev), or stop by the [Svelte websi
 
 *Note that you will need to have [Go](https://go.dev) and [Node.js](https://nodejs.org) both installed.*
 
-Clone this repository and install the project dependencies by doing the following:
+Clone this repository:
 
 ```bash
 $ git clone https://github.com/moadkey/gosvelte.git <my-project-name>
 $ cd <my-project-name>
+```
+
+Then install the project dependencies by doing the following:
+
+```bash
 $ yarn                # ( `yarn install` or `npm install`)
 ```
 
+*Note that GoSvelte comes with svelte script, to change to svelte TypeScript development environment, you can run immediately after cloning:*
+
+```bash
+$ yarn gsts           # (or `npm run gsts`)
+```
 # Development
 
 ```bash

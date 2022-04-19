@@ -3,6 +3,7 @@
   "version": "1.0.23",
   "private": true,
   "scripts": {
+    "gsts": "node system/gosvelte/scripts/gsts",
     "install": "node system/gosvelte/src -install",
     "dev": "node system/gosvelte/src -dev",
     "go": "node system/gosvelte/src -dev -go",
