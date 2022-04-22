@@ -34,7 +34,7 @@ function goSvelteCompiler(svelteFileName) {
                     customElement: true,
                 }
             }),
-            css({ output: goSvelteCfg.InternPublicPath.concat(goSvelteCfg.SvelteOutputPath, "/", svelteFileName.toLowerCase(), "/", "bundle.css") }),
+            css({ output: "bundle.css" }),
             resolve({
                 browser: true,
                 dedupe: ['svelte'],
